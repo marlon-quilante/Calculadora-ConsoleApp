@@ -37,7 +37,7 @@
                     {
                         Console.Clear();
                         Console.WriteLine("--------------------------------------");
-                        Console.WriteLine("Taboada");
+                        Console.WriteLine("Tabuada");
                         Console.WriteLine("--------------------------------------\n");
                         Console.Write("Digite um número inteiro: ");
                         int numero = Convert.ToInt32(Console.ReadLine());
