@@ -21,7 +21,7 @@
                 Console.WriteLine("2 - Subtrair");
                 Console.WriteLine("3 - Multiplicação");
                 Console.WriteLine("4 - Divisão");
-                Console.WriteLine("5 - Taboada");
+                Console.WriteLine("5 - Tabuada");
                 Console.WriteLine("6 - Histórico de Operações");
                 Console.WriteLine("S - Sair\n");
 
