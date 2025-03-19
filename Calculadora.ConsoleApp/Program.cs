@@ -71,14 +71,10 @@
                     else
                     {
                         Console.Write("\nDigite o primeiro número: ");
-                        decimal primeiroNumero = int.Parse(Console.ReadLine());
+                        decimal primeiroNumero = decimal.Parse(Console.ReadLine());
 
                         Console.Write("Digite o segundo número: ");
-                        decimal segundoNumero = int.Parse(Console.ReadLine());
-
-                        //decimal num = decimal.MaxValue;
-                        //double num1 = double.MaxValue;
-                        //float num2 = float.MaxValue;
+                        decimal segundoNumero = decimal.Parse(Console.ReadLine());
 
                         //estrutura de decisão se
                         if (opcao == "1")
