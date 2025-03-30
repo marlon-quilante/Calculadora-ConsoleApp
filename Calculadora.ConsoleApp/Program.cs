@@ -3,8 +3,7 @@
     internal class Program
     {
         static void Main(string[] args)
-        {
-            
+        { 
             string[] historicoOperacoes = new string[100];
             int contadorHistorico = 0;
 
@@ -31,6 +30,8 @@
                         decimal resultado = RealizarCalculo(opcao, contadorHistorico, historicoOperacoes);
 
                         ExibirResultado(resultado);
+
+                        contadorHistorico++;
                     }
                 }
                 catch (Exception ex)
@@ -158,7 +159,6 @@
                 Console.WriteLine("\nOpção inválida! Pressione qualquer tecla para continuar...");
                 Console.ReadLine();
             }
-            contadorHistorico++;
             return resultado;
         }
 
